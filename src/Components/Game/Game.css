@@ -1,0 +1,31 @@
+.Game {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+}
+
+.Board {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.Results {
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.Notes {
+    grid-column: 4;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-grow: 1;
+    overflow: hidden;
+}
